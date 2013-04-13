@@ -87,34 +87,15 @@
 
     <div id="content">
 
-<!--       <xsl:if test="$page-title != 'Home'">
-        <div class="page-headers">
-          <div class="container">
-            <h1>
-              <a>
-                <xsl:attribute name="href">
-                  <xsl:choose>
-                    <xsl:when test="$root-page = 'error'">
-                      <xsl:value-of select="$root" />
-                    </xsl:when>
-                    <xsl:otherwise>
-                      <xsl:value-of select="$root" />
-                      <xsl:text>/</xsl:text>
-                      <xsl:value-of select="$root-page" />
-                    </xsl:otherwise>
-                  </xsl:choose>
-                </xsl:attribute>
-                <xsl:value-of select="//data/page-data/entry/title" />
-              </a>
-            </h1>
-            <p class="lead">
-              <xsl:value-of select="//data/page-data/entry/description" />
-            </p>
-          </div>
-        </div>
-      </xsl:if> -->
-
       <xsl:apply-templates />
+
+      <xsl:if test="string-length(//data/page-data/entry/image) &gt;0">
+        <img class="full-bleed top" src="/workspace/img/spacer.gif" width="100%" style="height:400px">
+          <xsl:attribute name="data-responsimage">
+            <xsl:value-of select="//data/page-data/entry/image/item/image/filename" />
+          </xsl:attribute>
+          </img>
+      </xsl:if>
       <xsl:if test="string-length(//data/page-data/entry/content) &gt; 0">
         <div class="main">
           <div class="container">
