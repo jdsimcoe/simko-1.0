@@ -639,6 +639,14 @@ body > .navbar .brand {
 
 .main {
   margin: 100px auto;
+
+  &.info {
+
+    h1 + p {
+      font-size: 2em;
+      line-height: 1.4;
+    }
+  }
 }
 
 
@@ -870,12 +878,6 @@ body > .navbar .brand {
     font-size: 100px;
     position: relative;
     top: 5px;
-    -webkit-transition: none;
-
-    &:hover {
-      border: none;
-      color: lighten(@color-black, 15%);
-    }
   }
 }
 

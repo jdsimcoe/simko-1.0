@@ -97,7 +97,7 @@
           </img>
       </xsl:if>
       <xsl:if test="string-length(//data/page-data/entry/content) &gt; 0">
-        <div class="main">
+        <div class="main info">
           <div class="container">
             <xsl:if test="string-length(//data/page-data/entry/title) &gt; 0">
               <h1>
@@ -140,7 +140,7 @@
              </p>
           </div>
           <div class="span1">
-            <a href="{$root}"><span class="logo">S</span></a>
+            <span class="logo">S</span>
           </div>
 
         </div>

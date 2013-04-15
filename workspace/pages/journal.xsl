@@ -16,7 +16,7 @@
       <div class="container main">
         <div class="row">
           <div class="span12">
-            <h1>Blog Posts</h1>
+            <h1>Journal Entries</h1>
           </div>
         </div>
         <div class="row">
