@@ -45,7 +45,7 @@
 			return parent::build();
 		}
 
-		protected function buildJump($wrapper) {
+		protected function buildJump(XMLElement $wrapper) {
 			$list = new XMLElement('ul');
 
 			$list->appendChild($this->buildJumpItem(
@@ -85,8 +85,9 @@
 			$wrapper->appendChild($list);
 		}
 
-		public function buildContent($wrapper) {
+		public function buildContent(XMLElement $wrapper) {
 			$this->addStylesheetToHead(URL . '/extensions/debugdevkit/assets/devkit.css', 'screen', 10);
+			$this->addStylesheetToHead(URL . '/workspace/assets/css/devkit-override.css', 'screen', 11);
 			$this->addScriptToHead(SYMPHONY_URL . '/assets/js/jquery.js', 20);
 			$this->addScriptToHead(URL . '/extensions/debugdevkit/assets/jquery.scrollto.js', 30);
 			$this->addScriptToHead(URL . '/extensions/debugdevkit/assets/devkit.js', 40);
@@ -121,7 +122,7 @@
 			}
 		}
 
-		protected function appendSource($wrapper, $source, $language = 'xml') {
+		protected function appendSource(XMLElement $wrapper, $source, $language = 'xml') {
 			$bitter = new Bitter();
 			$bitter->loadFormat('symphony');
 			$bitter->loadLanguage($language);

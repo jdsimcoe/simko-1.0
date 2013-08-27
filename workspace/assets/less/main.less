@@ -1,0 +1,84 @@
+@import "../bootstrap/less/bootstrap";
+
+@import "icons";
+// @import "docs";
+@import "horizon";
+
+// Bootstrap Overrides
+// -------------------------------------------------
+
+@font-size-base: 18px;
+@screen-tablet: 991px;
+@icon-font-path: "/workspace/assets/bootstrap/fonts/";
+@font-family-serif: 'adelle', Georgia, Times, serif;
+@font-family-sans-serif: 'futura-pt', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+
+// Variables
+// -------------------------------------------------
+
+@color-white: #ffffff;
+@color-black: #000000;
+@brand-primary: #555152;
+@color-brand-dark: #2E2633;
+@color-brand-neutral: #DCE9BE;
+@color-brand-light: #EFFFCD;
+@color-brand-pop: #99173C;
+@base: 10px;
+
+// Mixins
+// -------------------------------------------------
+
+.allcaps {
+  text-transform: uppercase;
+}
+
+.center {
+  text-align: center;
+}
+
+.border-radius(@radius) {
+  -webkit-border-radius: @radius;
+     -moz-border-radius: @radius;
+          border-radius: @radius;
+}
+
+// ResponsImage
+// -------------------------------------------------
+
+@media (-webkit-min-device-pixel-ratio: 2) {
+
+  [data-responsimage] {
+    font-family: 'pixel-ratio-2';
+  }
+}
+
+// Navbar
+// -------------------------------------------------
+
+@navbar-height: 75px;
+@navbar-margin-bottom: 0;
+@navbar-default-bg: darken(@brand-primary, 3%);
+@navbar-default-color: darken(@brand-primary, 20%);
+@navbar-default-border: none;
+@navbar-default-link-color: lighten(@brand-primary, 10%);
+@navbar-default-brand-color: darken(@brand-primary, 15%);
+
+.navbar {
+  text-transform: uppercase;
+}
+
+// Masthead
+// -------------------------------------------------
+
+.masthead {
+  .horizon(@color-background: @brand-primary, @width: 50%);
+  margin-top: @navbar-height;
+}
+
+
+// Footer
+// -------------------------------------------------
+
+.footer {
+  .horizon(@color-background: darken(@color-white, 10%));
+}

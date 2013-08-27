@@ -2,7 +2,7 @@
 /*----------------------------------------------------------------------------*/
 	
 	class BitterFormatSymphony extends BitterFormat {
-		protected $tabsize = 2;
+		protected $tabsize = 4;
 		protected $line = 1;
 		protected $output = '';
 		
@@ -54,9 +54,9 @@
 					
 					foreach ($characters as $character) {
 						if ($character == "\n") {
-							foreach ($stack as $alt_token) $this->output .= '</span>';
-							
 							$this->endLine();
+							
+							foreach ($stack as $alt_token) $this->output .= '</span>';
 						}
 						
 						$this->output .= $character;

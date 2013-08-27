@@ -9,7 +9,6 @@
 
 <xsl:template match="data">
 
-
   <div class="main">
 
     <xsl:apply-templates select="/data/blog-latest/entry"/>

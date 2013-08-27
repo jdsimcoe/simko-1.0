@@ -1,19 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<extension id="jit_image_manipulation" status="released" xmlns="http://symphony-cms.com/schemas/extension/1.0">
+<extension id="jit_image_manipulation" status="released" xmlns="http://getsymphony.com/schemas/extension/1.0">
 	<name>Just In Time (JIT) Image Manipulation</name>
 	<description>Image thumbnailer</description>
 	<repo type="github">https://github.com/symphonycms/jit_image_manipulation</repo>
-	<url type="discuss">http://symphony-cms.com/discuss/thread/32795/</url>
+	<url type="discuss">http://getsymphony.com/discuss/thread/32795/</url>
 	<types>
 		<type>Multimedia</type>
+		<type>Image</type>
+		<type>Thumbnail</type>
 	</types>
 	<authors>
 		<author>
 			<name github="symphonycms" symphony="team">Symphony Team</name>
-			<website>http://symphony-cms.com</website>
+			<website>http://getsymphony.com</website>
 		</author>
 	</authors>
 	<releases>
+		<release version="1.19" data="2013-07-01" min="2.3.2">
+			- Update links to **getsymphony.com**
+		</release>
+		<release version="1.18" date="2013-03-24" min="2.3.2">
+			- Set GD to ignore invalid JPEG's
+			- Match recipes names more specifically, using `thumbs` and `thumb` is now possible
+			- When saving the `.htaccess` changes, use the `PHP_EOL` constant for more consistent output
+			- Cache `Gateway` requests for improved performance
+			- Fix potential warnings when checking for trusted sites
+		</release>
+		<release version="1.17" date="2013-02-22" min="2.3.2">
+			- Allow JIT to function with image filenames that have special characters
+			- Use Gateway instead of curl directly for HTTP Requests
+			- Use the Page class in order to generate HTTP Status codes
+			- Adding an option to disable upscaling images
+			- Update trusted sites to support subdomains `*.ytimg.com` etc.
+		</release>
 		<release version="1.16" date="2012-09-16" min="2.3">
 			- Add a Recipes data source
 			- Update German translation
