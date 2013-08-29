@@ -68,85 +68,85 @@
       <div class="row">
         <div class="col-md-4">
           <a href="{$root}/workspace/uploads/images/a-great-light-521edebbf4170.jpg">
-            <img src="/workspace/img/spacer.gif" class="img-thumbnail img-responsive" width="100%" data-responsimage="a-great-light-521edebbf4170.jpg" />
+            <img class="img-thumbnail img-responsive" width="100%" data-responsimage="a-great-light-521edebbf4170.jpg" />
           </a>
         </div>
         <div class="col-md-4">
           <a href="{$root}/workspace/uploads/images/fourteen-521edf9780d9b.jpg">
-            <img src="/workspace/img/spacer.gif" class="img-thumbnail img-responsive" width="100%" data-responsimage="fourteen-521edf9780d9b.jpg" />
+            <img class="img-thumbnail img-responsive" width="100%" data-responsimage="fourteen-521edf9780d9b.jpg" />
           </a>
         </div>
         <div class="col-md-4">
           <a href="{$root}/workspace/uploads/images/gospel-culture-521edef3b1d8c.jpg">
-            <img src="/workspace/img/spacer.gif" class="img-thumbnail img-responsive" width="100%" data-responsimage="gospel-culture-521edef3b1d8c.jpg" />
+            <img class="img-thumbnail img-responsive" width="100%" data-responsimage="gospel-culture-521edef3b1d8c.jpg" />
           </a>
         </div>
       </div>
       <div class="row">
         <div class="col-md-4">
           <a href="{$root}/workspace/uploads/images/have-life-521ee00b3923f.jpg">
-            <img src="/workspace/img/spacer.gif" class="img-thumbnail img-responsive" width="100%" data-responsimage="have-life-521ee00b3923f.jpg" />
+            <img class="img-thumbnail img-responsive" width="100%" data-responsimage="have-life-521ee00b3923f.jpg" />
           </a>
         </div>
         <div class="col-md-4">
           <a href="{$root}/workspace/uploads/images/high-priestly-wallpaper_2-521ee02f5088b.jpg">
-            <img src="/workspace/img/spacer.gif" class="img-thumbnail img-responsive" width="100%" data-responsimage="high-priestly-wallpaper_2-521ee02f5088b.jpg" />
+            <img class="img-thumbnail img-responsive" width="100%" data-responsimage="high-priestly-wallpaper_2-521ee02f5088b.jpg" />
           </a>
         </div>
         <div class="col-md-4">
           <a href="{$root}/workspace/uploads/images/revelation-19-521ee059aa410.jpg">
-            <img src="/workspace/img/spacer.gif" class="img-thumbnail img-responsive" width="100%" data-responsimage="revelation-19-521ee059aa410.jpg" />
+            <img class="img-thumbnail img-responsive" width="100%" data-responsimage="revelation-19-521ee059aa410.jpg" />
           </a>
         </div>
       </div>
       <div class="row">
         <div class="col-md-4">
           <a href="{$root}/workspace/uploads/images/sunday-celebration-web-final-5-521edd6150ae9.jpg">
-            <img src="/workspace/img/spacer.gif" class="img-thumbnail img-responsive" width="100%" data-responsimage="sunday-celebration-web-final-5-521edd6150ae9.jpg" />
+            <img class="img-thumbnail img-responsive" width="100%" data-responsimage="sunday-celebration-web-final-5-521edd6150ae9.jpg" />
           </a>
         </div>
         <div class="col-md-4">
           <a href="{$root}/workspace/uploads/images/rafting-01-51e727687bb86-521edd07c2140.jpg">
-            <img src="/workspace/img/spacer.gif" class="img-thumbnail img-responsive" width="100%" data-responsimage="rafting-01-51e727687bb86-521edd07c2140.jpg" />
+            <img class="img-thumbnail img-responsive" width="100%" data-responsimage="rafting-01-51e727687bb86-521edd07c2140.jpg" />
           </a>
         </div>
         <div class="col-md-4">
           <a href="{$root}/workspace/uploads/images/camp-web-521edcb532013.jpg">
-            <img src="/workspace/img/spacer.gif" class="img-thumbnail img-responsive" width="100%" data-responsimage="camp-web-521edcb532013.jpg" />
+            <img class="img-thumbnail img-responsive" width="100%" data-responsimage="camp-web-521edcb532013.jpg" />
           </a>
         </div>
       </div>
       <div class="row">
         <div class="col-md-4">
           <a href="{$root}/workspace/uploads/images/teaching-revelation-521ede1dc968e.jpg">
-            <img src="/workspace/img/spacer.gif" class="img-thumbnail img-responsive" width="100%" data-responsimage="teaching-revelation-521ede1dc968e.jpg" />
+            <img class="img-thumbnail img-responsive" width="100%" data-responsimage="teaching-revelation-521ede1dc968e.jpg" />
           </a>
         </div>
         <div class="col-md-4">
           <a href="{$root}/workspace/uploads/images/teaching-holyspiritseries-521ede5e86899.jpg">
-            <img src="/workspace/img/spacer.gif" class="img-thumbnail img-responsive" width="100%" data-responsimage="teaching-holyspiritseries-521ede5e86899.jpg" />
+            <img class="img-thumbnail img-responsive" width="100%" data-responsimage="teaching-holyspiritseries-521ede5e86899.jpg" />
           </a>
         </div>
         <div class="col-md-4">
           <a href="{$root}/workspace/uploads/images/teaching-foryourjoyseries-521eddb6b6929.jpg">
-            <img src="/workspace/img/spacer.gif" class="img-thumbnail img-responsive" width="100%" data-responsimage="teaching-foryourjoyseries-521eddb6b6929.jpg" />
+            <img class="img-thumbnail img-responsive" width="100%" data-responsimage="teaching-foryourjoyseries-521eddb6b6929.jpg" />
           </a>
         </div>
       </div>
       <div class="row">
         <div class="col-md-4">
           <a href="{$root}/workspace/uploads/images/christmas-together-web-521edcce7cf72.jpg">
-            <img src="/workspace/img/spacer.gif" class="img-thumbnail img-responsive" width="100%" data-responsimage="christmas-together-web-521edcce7cf72.jpg" />
+            <img class="img-thumbnail img-responsive" width="100%" data-responsimage="christmas-together-web-521edcce7cf72.jpg" />
           </a>
         </div>
         <div class="col-md-4">
           <a href="{$root}/workspace/uploads/images/mens-breakfasts-5172ce63d72a5-521f7a944a049.jpg">
-            <img src="/workspace/img/spacer.gif" class="img-thumbnail img-responsive" width="100%" data-responsimage="mens-breakfasts-5172ce63d72a5-521f7a944a049.jpg" />
+            <img class="img-thumbnail img-responsive" width="100%" data-responsimage="mens-breakfasts-5172ce63d72a5-521f7a944a049.jpg" />
           </a>
         </div>
         <div class="col-md-4">
           <a href="{$root}/workspace/uploads/images/family-camp_2-01-518927e98e524-521f7a8210f9e.jpg">
-            <img src="/workspace/img/spacer.gif" class="img-thumbnail img-responsive" width="100%" data-responsimage="family-camp_2-01-518927e98e524-521f7a8210f9e.jpg" />
+            <img class="img-thumbnail img-responsive" width="100%" data-responsimage="family-camp_2-01-518927e98e524-521f7a8210f9e.jpg" />
           </a>
         </div>
       </div>
@@ -159,7 +159,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-4 col-md-offset-4">
-          <img src="/workspace/img/spacer.gif" class="img-circle img-responsive" width="100%" data-responsimage="jds-headshot-521f81564b817.jpg"/>
+          <img class="img-circle img-responsive" width="100%" data-responsimage="jds-headshot-521f81564b817.jpg"/>
         </div>
       </div>
     </div>
