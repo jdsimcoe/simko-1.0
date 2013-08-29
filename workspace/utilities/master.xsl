@@ -58,7 +58,7 @@
     <meta name="description" content="The graphic + web portfolio of Jonathan Simcoe" />
     <meta name="keywords" content="Jonathan Simcoe, Simcoe Design, Simcoe Design LLC, Simko.io" />
     <meta name="author" content="Jonathan Simcoe" />
-    <meta name="responsimage" data-server="{$root}/image/2/width/height/anchor/0/uploads/images/filename" data-static="{$workspace}/img/spacer.gif" data-loading="{$workspace}/img/loading.gif" />
+    <meta name="responsimage" data-server="{$root}/image/2/width/height/anchor/0/uploads/images/filename" data-static="{$workspace}/assets/img/spacer.gif" data-loading="{$workspace}/assets/img/loading.gif" />
 
     <link href="{$workspace}/assets/css/main.css" rel="stylesheet" />
     <link href="{$workspace}/img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
