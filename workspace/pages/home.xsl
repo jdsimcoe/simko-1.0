@@ -184,7 +184,7 @@
 
       <div class="row">
 
-        <form class="form-horizontal" role="form" method="post" action="#contact">
+        <form class="form-horizontal" role="form" method="post" action="?debug">
 
           <xsl:for-each select="/data/events/contact-message">
             <div>
@@ -343,19 +343,19 @@
                   </xsl:if>
                   <xsl:text>Choose an option:</xsl:text>
                 </option>
-                <option value="General Inquiry">
+                <option value="General Question">
                   <xsl:if test="/data/events/contact-message/post-values/inquiry = 'General Question'">
                     <xsl:attribute name="selected"></xsl:attribute>
                   </xsl:if>
                   <xsl:text>General Question</xsl:text>
                 </option>
-                <option value="Learn More">
+                <option value="Get an Estimate">
                   <xsl:if test="/data/events/contact-message/post-values/inquiry = 'Get an Estimate'">
                     <xsl:attribute name="selected"></xsl:attribute>
                   </xsl:if>
                   <xsl:text>Get an Estimate</xsl:text>
                 </option>
-                <option value="Feedback">
+                <option value="Start a Project">
                   <xsl:if test="/data/events/contact-message/post-values/inquiry = 'Start a Project'">
                     <xsl:attribute name="selected"></xsl:attribute>
                   </xsl:if>
