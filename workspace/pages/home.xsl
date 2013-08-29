@@ -163,8 +163,8 @@
         </div>
       </div>
     </div>
-    <p class="lead">Jonathan Simcoe is the owner and curator of Simko.io and Simcoe Design LLC. In his own words:</p>
     <div class="container">
+      <p class="lead">Jonathan Simcoe is the owner and curator of Simko.io and Simcoe Design LLC.<br/>In his own words:</p>
       <p>I am first a Christian and then a husband and father who desires and strives to glorify God in all aspects of my life. I am the principal design and web lead of <a href="http://atheycreek.com/">AtheyCreek.com</a> and the wheels behind <a href="http://dtr.mn">Determine</a> a ministry with my wife encouraging people to see Jesus Christ at the center of all of life.</p>
       <p>I previously worked at WebMD Health Services where I helped push new standards like responsive design and adoption of HTML5 and CSS3 to produce better web experiences for clients. Prior to WebMD, I worked at the Waggener Edstrom Studio D™ digital strategies practice, churning out creative Web, digital and print work for clients such as Microsoft, Bing, Verizon, HTC, Sasquatch! Music Festival, Washington Roundtable and the Jebsen Group.</p>
       <p>Before Waggener Edstrom, I worked for four years in the financial industry, where I was responsible for driving the marketing and creative output of an investment consultancy. This role involved crafting the Web experiences, content, branding and graphic design for the agency, as well as distilling complicated investment concepts into forms that were easily digested by clients and investors.</p>
