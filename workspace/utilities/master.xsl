@@ -47,9 +47,9 @@
               <xsl:with-param name="text" select="translate(normalize-space($title-spaced),
           'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz')" />
             </xsl:call-template>
-            <xsl:text> | </xsl:text>
+            <xsl:text> · </xsl:text>
           </xsl:if>
-          <xsl:text>Simko.io | </xsl:text>
+          <xsl:text>Simko.io · </xsl:text>
           <xsl:value-of select="//data/page-data/entry/title" />
         </title>
       </xsl:otherwise>
@@ -112,9 +112,7 @@
                 </xsl:otherwise>
               </xsl:choose>
               <xsl:text>.&#160;</xsl:text>
-              <xsl:text>Simcoe Design LLC. All rights reserved.&#160;&#160;|&#160;&#160;</xsl:text>
-              <a class="rss" href="{$root}/rss/">RSS</a>
-              <xsl:text>&#160;&#160;|&#160;&#160;</xsl:text>
+              <xsl:text>Simcoe Design LLC. All rights reserved.&#160;&#160;•&#160;&#160;</xsl:text>
               <a href="http://getsymphony.com/">Built with <strong>Symphony</strong></a>
 
              </p>
