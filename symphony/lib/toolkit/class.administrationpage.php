@@ -354,7 +354,6 @@
 			$this->addStylesheetToHead(APPLICATION_URL . '/assets/css/symphony.associations.css', 'screen', 38);
 			$this->addStylesheetToHead(APPLICATION_URL . '/assets/css/symphony.notices.css', 'screen', 39);
 			$this->addStylesheetToHead(APPLICATION_URL . '/assets/css/admin.css', 'screen', 40);
-			$this->addStylesheetToHead('/workspace/assets/css/admin-override.css', 'screen', 41);
 
 			$this->addScriptToHead(APPLICATION_URL . '/assets/js/jquery.js', 50);
 			$this->addScriptToHead(APPLICATION_URL . '/assets/js/symphony.js', 60);

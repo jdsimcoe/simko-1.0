@@ -42,6 +42,20 @@
           border-radius: @radius;
 }
 
+.btn-bordered(@color-border: #555, @color-background: transparent) {
+  background: @color-background;
+  border: 3px solid @color-border;
+  .box-shadow(none);
+  color: @color-border;
+  padding: 15px 30px;
+
+  &:hover {
+    border-color: darken(@color-border, 15%);
+    .box-shadow(none);
+    color: darken(@color-border, 15%);
+  }
+}
+
 // ResponsImage
 // -------------------------------------------------
 
@@ -52,12 +66,60 @@
   }
 }
 
+// Global
+// -------------------------------------------------
+
+body {
+  color: @text-color;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: none;
+}
+
+* {
+  text-rendering: optimizeLegibility !important;
+  -webkit-text-size-adjust: none !important;
+}
+
+p,
+address,
+ul,
+ul li,
+ol,
+ol li, {
+  font-family: @font-family-serif;
+  font-size: @font-size-base;
+  line-height: 1.7;
+}
+
+
+a {
+  -webkit-transition: color 150ms ease-in-out, background 150ms ease-in-out, border-color 150ms ease-in-out;
+
+  &:hover {
+    color: darken(@link-color, 10%);
+    text-decoration: none;
+  }
+
+}
+
+.btn {
+  font-family: @font-family-sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  .box-shadow(none);
+
+  &.btn-large {
+    .btn-bordered(@color-border: lighten(@brand-primary, 15%););
+  }
+}
+
 // Navbar
 // -------------------------------------------------
 
 @navbar-height: 75px;
 @navbar-margin-bottom: 0;
-@navbar-default-bg: darken(@brand-primary, 3%);
+@navbar-default-bg: @brand-primary;
 @navbar-default-color: darken(@brand-primary, 20%);
 @navbar-default-border: none;
 @navbar-default-link-color: lighten(@brand-primary, 10%);
@@ -72,13 +134,156 @@
 
 .masthead {
   .horizon(@color-background: @brand-primary, @width: 50%);
-  margin-top: @navbar-height;
+  // margin-top: @navbar-height;
+  margin-top: 0;
+
+  a {
+    color: darken(@brand-primary, 15%);
+
+    &:hover {
+      color: darken(@brand-primary, 25%);
+    }
+  }
+
 }
 
+// Main
+// -------------------------------------------------
+
+.main {
+  @color-main: lighten(@brand-primary,40%);
+  .horizon(@color-background: @color-main, @width: 50%);
+
+  h4 {
+    margin-bottom: 40px;
+  }
+
+  p {
+
+    a {
+      color: darken(@color-main, 30%);
+
+      &:hover {
+        color: darken(@color-main, 40%);
+      }
+    }
+  }
+
+  hr {
+    border-color: darken(@color-main, 5%);
+    margin: 60px 0;
+  }
+}
+
+// Showcase
+// -------------------------------------------------
+
+.showcase {
+  @color-showcase: lighten(@brand-primary,25%);
+  .horizon(@color-background: @color-showcase, @width: 50%);
+
+  h4 {
+    margin-bottom: 40px;
+  }
+
+  p {
+
+    a {
+      color: darken(@color-showcase, 30%);
+
+      &:hover {
+        color: darken(@color-showcase, 40%);
+      }
+    }
+  }
+
+  .img-thumbnail {
+    border-color: lighten(@brand-primary, 15%);
+    border-width: 1px;
+
+    &:hover {
+      border-color: lighten(@brand-primary, 5%);
+    }
+  }
+
+  .row {
+    margin-bottom: 30px;
+  }
+
+  hr {
+    border-color: darken(@color-showcase, 5%);
+    margin: 60px 0;
+  }
+}
+
+.about {
+  @color-about: lighten(@brand-primary,15%);
+  .horizon(@color-background: @color-about, @width: 50%);
+
+  h4 {
+    margin-bottom: 40px;
+  }
+
+  p {
+
+    a {
+      color: darken(@color-about, 20%);
+
+      &:hover {
+        color: darken(@color-about, 30%);
+      }
+    }
+  }
+
+  hr {
+    border-color: darken(@color-about, 5%);
+    margin: 60px 0;
+  }
+
+  .container {
+
+    .lead {
+      width: 100%;
+    }
+
+  }
+
+}
+
+.contact {
+  @color-contact: lighten(@brand-primary,35%);
+  .horizon(@color-background: @color-contact, @width: 80%);
+
+  hr {
+    border-color: lighten(@brand-primary,25%);
+    margin: 60px auto;
+    width: 50%;
+  }
+
+  label {
+    text-transform: uppercase;
+  }
+
+  input,
+  select,
+  textarea {
+    font-family: @font-family-serif;
+  }
+
+  input.btn {
+    font-family: @font-family-sans-serif;
+    margin-top: 30px;
+  }
+
+  .help-block {
+    font-family: @font-family-serif;
+  }
+}
 
 // Footer
 // -------------------------------------------------
 
 .footer {
-  .horizon(@color-background: darken(@color-white, 10%));
+  @color-footer: lighten(@brand-primary,55%);
+  .horizon(@color-background: @color-footer);
 }

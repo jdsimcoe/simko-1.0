@@ -31,22 +31,6 @@ module.exports = function (grunt) {
         files: {
           "workspace/assets/css/main.css": "workspace/assets/less/main.less"
         }
-      },
-      admin: {
-        options: {
-          yuicompress: true
-        },
-        files: {
-          "workspace/assets/css/admin-override.css": "workspace/assets/less/admin.less"
-        }
-      },
-      debug: {
-        options: {
-          yuicompress: true
-        },
-        files: {
-          "workspace/assets/css/devkit-override.css": "workspace/assets/less/debug.less"
-        }
       }
     },
 
@@ -78,18 +62,18 @@ module.exports = function (grunt) {
     watch: {
       cssdev: {
         files: '**/*.less',
-        tasks: ['less:dev', 'less:admin', 'less:debug']
+        tasks: ['less:dev']
       },
       cssprod: {
         files: '<config:watch.cssdev.files>',
-         tasks: ['less:prod', 'less:admin', 'less:debug']
+         tasks: ['less:prod']
       }
     }
 
 });
 
 // Main task
-grunt.registerTask('cssdev', ['less:dev', 'less:admin', 'less:debug']);
-grunt.registerTask('cssprod', ['less:prod', 'less:admin', 'less:debug']);
+grunt.registerTask('cssdev', ['less:dev']);
+grunt.registerTask('cssprod', ['less:prod']);
 grunt.registerTask('jsprod', ['jshint', 'concat', 'uglify:bootstrap']);
-grunt.registerTask('default', ['jshint', 'concat', 'uglify:bootstrap', 'less:prod', 'less:admin', 'less:debug'])};
+grunt.registerTask('default', ['jshint', 'concat', 'uglify:bootstrap', 'less:prod'])};

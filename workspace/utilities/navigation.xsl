@@ -3,7 +3,7 @@
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
 <xsl:template match="navigation">
-  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+<!--   <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -32,7 +32,7 @@
       </ul>
     </div>
 
-  </nav>
+  </nav> -->
 </xsl:template>
 
 <xsl:template match="navigation/page">

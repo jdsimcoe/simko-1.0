@@ -6,6 +6,7 @@
 <xsl:template match="/data/page-data/entry" mode="masthead">
 
   <div class="masthead">
+    <h3 class="center"><a href="{$root}">Simko.io</a></h3>
     <xsl:if test="string-length(title) and $current-page != 'home'">
       <h1><xsl:value-of select="title"/></h1>
     </xsl:if>
