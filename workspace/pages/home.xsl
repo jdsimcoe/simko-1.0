@@ -18,8 +18,8 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <h5><a href="http://atheycreek.com/">AtheyCreek.com</a></h5>
-          <p>I have worked on AtheyCreek.com for several years taking on the development of their XSLT-based front-end and MySQL-based backend. The site is built on <a href="http://getsymphony.com/">Symphony</a>, <a href="http://getbootstrap.com/">Bootstrap</a>, and the latest web technologies. It is fully responsive, optimized for mobile devices and tablets. It is featured by Bootstrap in their <a href="http://expo.getbootstrap.com/">Expo</a>, showcasing exemplary use of their web framework. I have also worked on implementing the visual brand and developing artwork for sermons, events, and church functions.</p>
+          <h5><a href="http://atheycreek.com/">AtheyCreek.com <i class="glyphicon glyphicon-link"></i></a></h5>
+          <p>I have worked on AtheyCreek.com for several years taking on the development of their XSLT-based front-end and MySQL-based backend. The site is built on <a href="http://getsymphony.com/">Symphony</a>, <a href="http://getbootstrap.com/">Bootstrap</a>, and the latest web technologies. It is fully responsive, optimized for mobile devices and tablets. It is featured by Bootstrap in their <a href="http://expo.getbootstrap.com/">Expo</a>, a showcase of exemplary uses of their web framework. I have also worked on implementing the visual brand and developing artwork for sermons, events, and church functions.</p>
         </div>
         <div class="col-md-6">
           <img src="{$root}/workspace/assets/img/main/athey-site.png" alt="AtheyCreek.com" class="img-responsive"/>
@@ -28,7 +28,7 @@
       <hr/>
       <div class="row">
         <div class="col-md-6 col-md-push-6">
-          <h5><a href="http://dapperandwise.com/">Dapper &amp; Wise Roasters</a></h5>
+          <h5><a href="http://dapperandwise.com/">Dapper &amp; Wise Roasters <i class="glyphicon glyphicon-link"></i></a></h5>
           <p>Dapper &amp; Wise wanted a sleek, clean looking site with original photography to compliment their top-notch coffee roasting outfit in Beaverton, OR. The site is built on <a href="http://getsymphony.com/">Symphony</a> and <a href="http://getbootstrap.com/">Bootstrap</a> is fully responsive and optimized for mobile and tablet devices. For Dapper &amp; Wise I worked on moving their branding and iconography to a vector font method that ensures crispness on any device. I also photographed their location and coffee products for use on the site and in their <a href="https://squareup.com/market/dapper-and-wise-roasters">Square Market store</a>.</p>
         </div>
         <div class="col-md-6 col-md-pull-6">
@@ -38,11 +38,21 @@
       <hr/>
       <div class="row">
         <div class="col-md-6">
-          <h5><a href="http://dtr.mn/">Determine (dtr.mn)</a></h5>
-          <p>Determine is a website and ministry with my wife of sharing the Gospel of Jesus Christ through writing, design, quotes, book reviews, and Bible studies. The site is built on <a href="http://getsymphony.com/">Symphony</a> and <a href="http://getbootstrap.com/">Bootstrap</a> and is also mobile-optimized and fully responsive. Some of the photography of the site and design has been custom-made for the site as a creative outlet and side project to benefit that also is meant to build up the body of Christ as well as introduce the general public to Christian doctrine.</p>
+          <h5><a href="http://churchdeploy.com/">Church Deploy <i class="glyphicon glyphicon-link"></i></a></h5>
+          <p>Church Deploy is an open-source project CMS that I am working on. It currently powers <a href="http://atheycreek.com/">AtheyCreek.com</a>. Church Deploy leverages <a href="http://getsymphony.com/">Symphony</a> and <a href="http://getbootstrap.com/">Bootstrap</a> and provides a way for churches to get up and running with a powerful CMS that is open source. The idea is to collectively build a better church CMS that is publicly-availble and will grow over time. Church Deploy has built-in support for retina images, icon fonts, and is optimized for mobile devices responsibly.</p>
         </div>
         <div class="col-md-6">
-          <img src="{$root}/workspace/assets/img/main/dtrmn-site.png" alt="AtheyCreek.com" class="img-responsive"/>
+          <img src="{$root}/workspace/assets/img/main/churchdeploy-site-alt.png" alt="ChurchDeploy.com" class="img-responsive"/>
+        </div>
+      </div>
+      <hr/>
+      <div class="row">
+        <div class="col-md-6 col-md-push-6">
+          <h5><a href="http://dtr.mn/">Determine (dtr.mn) <i class="glyphicon glyphicon-link"></i></a></h5>
+          <p>Determine is a website and ministry with my wife of sharing the Gospel of Jesus Christ through writing, design, quotes, book reviews, and Bible studies. The site is built on <a href="http://getsymphony.com/">Symphony</a> and <a href="http://getbootstrap.com/">Bootstrap</a> and is also mobile-optimized and fully responsive. Some of the photography on the site and all of the design has been custom-made for Determine as both a creative outlet and a way to build up the body of Christ and introduce the general public to life-giving Christian doctrine.</p>
+        </div>
+        <div class="col-md-6 col-md-pull-6">
+          <img src="{$root}/workspace/assets/img/main/dtrmn-site.png" alt="Dtr.mn" class="img-responsive"/>
         </div>
       </div>
     </div>

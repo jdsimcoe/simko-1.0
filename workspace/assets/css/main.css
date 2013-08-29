@@ -4328,6 +4328,11 @@ a:hover {
 .main p a:hover {
   color: #555152;
 }
+@media (max-width: 768px) {
+  .main h5 {
+    text-align: center;
+  }
+}
 .main hr {
   border-color: #aeaaab;
   margin: 60px 0;
@@ -4404,12 +4409,10 @@ a:hover {
 .showcase .img-thumbnail {
   border-color: #7c7678;
   border-width: 1px;
+  margin-bottom: 30px;
 }
 .showcase .img-thumbnail:hover {
   border-color: #625d5f;
-}
-.showcase .row {
-  margin-bottom: 30px;
 }
 .showcase hr {
   border-color: #898385;
