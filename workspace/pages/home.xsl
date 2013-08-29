@@ -184,7 +184,7 @@
 
       <div class="row">
 
-        <form class="form-horizontal" role="form" method="post" action="?debug">
+        <form class="form-horizontal" role="form" method="post" action="#contact">
 
           <xsl:for-each select="/data/events/contact-message">
             <div>
