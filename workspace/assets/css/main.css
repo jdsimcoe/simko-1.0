@@ -6203,7 +6203,7 @@ a:hover {
   line-height: 1.6;
   margin: 15px auto;
   text-align: center;
-  width: 50%;
+  width: 75%;
 }
 .showcase p,
 .showcase address {
@@ -6227,7 +6227,7 @@ a:hover {
     font-size: 0.9em;
   }
   .showcase .lead {
-    width: 75%;
+    width: 100%;
   }
 }
 .showcase h4 {
@@ -6286,7 +6286,7 @@ a:hover {
   line-height: 1.6;
   margin: 15px auto;
   text-align: center;
-  width: 50%;
+  width: 75%;
 }
 .about p,
 .about address {
@@ -6310,7 +6310,7 @@ a:hover {
     font-size: 0.9em;
   }
   .about .lead {
-    width: 75%;
+    width: 100%;
   }
 }
 .about h4 {
@@ -6362,7 +6362,7 @@ a:hover {
   line-height: 1.6;
   margin: 15px auto;
   text-align: center;
-  width: 80%;
+  width: 75%;
 }
 .contact p,
 .contact address {
@@ -6386,7 +6386,7 @@ a:hover {
     font-size: 0.9em;
   }
   .contact .lead {
-    width: 105%;
+    width: 100%;
   }
 }
 .contact hr {
