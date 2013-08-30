@@ -170,13 +170,11 @@
       <p>Before Waggener Edstrom, I worked for four years in the financial industry, where I was responsible for driving the marketing and creative output of an investment consultancy. This role involved crafting the web experiences, content, branding, and graphic design for the agency, as well as distilling complicated investment concepts into forms that were easily digested by clients and investors.</p>
       <p>I have worked on and off for the past seven years doing freelance Web, graphic and print design work, consulting on the creative process with startups and developing a passion to think beyond visual design in dreaming up rich and usable experiences for consumers.</p>
       <p>I have a passion for learning and am excited about the direction of the web, as well as how technologies such as HTML5 and mobile-first design are facilitating great content and taking on a variety of forms to reach new audiences. This site and my other projects embrace new technologies like HTML5, responsive design and responsive images (including retina images), as well as open standard such as PHP, XML, and XSLT.</p>
-      <hr/>
-      <p class="lead">My desire is to use design and the web to build a better future for clients and to display God’s creative goodness in all that I do.</p>
     </div>
   </div><!-- .about -->
 
   <div class="contact" id="contact">
-    <h4>Contact Me</h4>
+    <h4>Contact</h4>
     <p class="lead">Please use the form below to get in touch, offer feedback, or get started on a project. I will consider projects of all types and sizes, so don't be shy!</p>
     <hr/>
 
